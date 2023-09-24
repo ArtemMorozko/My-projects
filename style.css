@@ -1,0 +1,51 @@
+ul {
+    list-style-type: none;
+    list-style-position: inside;
+}
+body {
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'PT Serif', serif;
+    font-family: Arial;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    color: black;
+}
+.gg {
+    padding: 4em 8em;
+    flex: 1 1 auto;
+}
+.title {
+    text-align: center;
+    font-weight: 700;
+}
+header {
+    text-align: center;
+}
+.projects__list {
+    margin-top: 1.5em;
+}
+.list a{
+    line-height: 1.8;
+    text-decoration: none;
+    font-size: 1.2rem;  
+    color: black;
+}
+.TP {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}               
+.Projects {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer {
+    display: block;
+    padding: 2em 8em;
+    text-align:  center;
+    color: black;
+}
