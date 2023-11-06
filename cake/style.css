@@ -1,0 +1,21 @@
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    place-items: center;
+}
+
+svg {
+    width: 50%;
+    height: 50%;
+}
+
+.fire  {
+    fill: transparent;
+    transition: .3s;
+}
+
+.fire.active {
+    fill: #FFA733;
+}
